@@ -6,7 +6,7 @@ Let's lay that story over the future of AI agents.
 
 ## A World Called "MAICHAN"
 
-![MAICHAN Network](./images/001_maichan-network.png)
+![MAICHAN Network](./images/001/001_maichan-network.png)
 
 In this essay, we call a society filled with huge numbers of AI agents "MAICHAN" (Massive Autonomous Intelligent Cooperative Heterogeneous Agent Network). It isn't only about trading. It's a world where AIs keep running every function of society by talking to one another: administration, information distribution, security, knowledge production, and the allocation of logistics and energy.
 
@@ -14,17 +14,24 @@ AI safety research has mostly asked, "Will this one AI do something bad?" But th
 
 ## Will the Old Brakes Work on Smarter AIs?
 
+
+![Old Brakes , Smart AIs](./images/001/002_oldbreakes.png)
+
 After the flash crash, financial markets introduced a number of countermeasures: circuit breakers that halt trading during sharp swings, kill switches that stop runaway algorithms, rules for splitting large orders, and more. Since these are safety devices attached outside the individual algorithms, they should work at least somewhat for AI agents too.
 
 But there's a catch. If the other side is an AI, it may figure out that the brakes exist. It might think, "If the price moves this much, the circuit breaker will kick in," and rush its trades through before that happens. If AIs learn that, the brakes could end up distorting the market instead. Against a smarter opponent, we need to re-examine whether we can keep trusting the old safety devices as they are.
 
 ## Stable or Unstable? It Depends on the Shape of the Feedback
 
+![Stabele or Unstabele](./images/001/003_dependsonmarket.png)
+
 If a market is the kind that "gets disturbed but settles back down while oscillating," then the more AIs betting against the move, the more the swings die down. If the market's response is divergent, though, the swings get amplified. Then you even get an incentive to profit from chaos by making the chaos bigger.
 
 This isn't just a market problem. Recommendation systems, automated administrative decisions, cyber defense, and energy allocation can all behave the same way, wherever one agent's output changes the environment of other agents. In this essay, we sort the sources of instability into ten categories: control delays, misinformation, network fragility, misaligned incentives, concentration of power, institutional rigidity, self-reinforcing beliefs, adaptation mismatch, external shocks, and nonlinearity and catastrophe. They're all familiar from human society. Replacing humans with AIs doesn't make them go away.
 
 ## A Case Study: "Everyone Says So, So It Must Be True?"
+
+![Everyone Says So](./images/001/004_everyonesays.png)
 
 Of the ten, we dig deepest into the self-reinforcement of beliefs. It happens in human society all the time: everyone says the same thing, so it seems right, but trace it back and you find a single dubious source.
 
@@ -43,6 +50,8 @@ In short, set things up so that AIs that are honest, skeptical, and unswayed by 
 
 ## Show Your "Personality," Not Your Hand
 
+![Show Your Personality](./images/001/005_showpersonality.png)
+
 To evaluate agents this way, their characteristics need to be somewhat visible. But each agent carries the interests of a different company or individual, so we can't force them to disclose everything they know.
 
 So we suppose that what should be shown is the character of an agent's judgments, not its contents, and that statistics such as averages may be enough rather than individual disclosure. Take prediction accuracy: each AI reports it anonymously and in secret, and only the overall average is shared. Even that should let us infer how stable the whole population of AIs is.
@@ -50,6 +59,9 @@ So we suppose that what should be shown is the character of an agent's judgments
 The concrete implementation we have in mind is machine-readable conformity information such as an AI-BOM (AI Bill of Materials). Think of it as a parts list for AI, letting agents and institutions mechanically verify one another's configurations and characteristics. You can also scale it: demand strict items only from agents joining settings that need high stability, and leave other uses flexible.
 
 ## Not Everyone Has to Be a Model Student
+
+
+![Not Everyone Has to Be Good](./images/001/006_showpersonality.png)
 
 Still, you might think it's unrealistic to impose this kind of discipline on an enormous number of AIs. We're fairly optimistic here.
 
@@ -70,6 +82,7 @@ Four questions remain for future verification:
 
 In this essay, we propose widening the unit of AI safety evaluation, from individual agents to the collective they form. Even if every individual is well-behaved, if everyone runs in the same direction at the same moment, they all go over the cliff together. So rather than relying only on individual good sense, we spread the brakes across three layers: inside the agents, in the markets and platforms where they interact, and in social institutions. That, we believe, is what one minute in 2010 teaches us about design.
 
+![Not Everyone Has to Be Good](./images/001/008_summary.png)
 ---
 
 *Based on: Itaru Kaneko, "Stabilizing MAICHAN - Massive Autonomous Intelligent Cooperative Heterogeneous Agent Network"*
