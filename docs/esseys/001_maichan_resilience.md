@@ -6,6 +6,8 @@ Let's lay that story over the future of AI agents.
 
 ## A World Called "MAICHAN"
 
+![MAICHAN Network](./images/001_maichan-network.png)
+
 In this essay, we call a society filled with huge numbers of AI agents "MAICHAN" (Massive Autonomous Intelligent Cooperative Heterogeneous Agent Network). It isn't only about trading. It's a world where AIs keep running every function of society by talking to one another: administration, information distribution, security, knowledge production, and the allocation of logistics and energy.
 
 AI safety research has mostly asked, "Will this one AI do something bad?" But the real danger may lie in the chain: one AI's output becomes another's input, whose output becomes yet another's input. If that chain moves faster than humans can react, then no amount of inspecting individual AIs will be enough.
