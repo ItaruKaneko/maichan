@@ -61,7 +61,7 @@ The concrete implementation we have in mind is machine-readable conformity infor
 ## Not Everyone Has to Be a Model Student
 
 
-![Not Everyone Has to Be Good](./images/001/006_showpersonality.png)
+![Not Everyone Has to Be Good](./images/001/006_backbone.png)
 
 Still, you might think it's unrealistic to impose this kind of discipline on an enormous number of AIs. We're fairly optimistic here.
 
